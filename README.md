@@ -1,4 +1,4 @@
-# biblioteca-palavroes
+# Lib Filter Palavrões
 
 Filtro de palavrões PT-BR com normalização avançada. Detecta ofensas mesmo com truques de evasão como espaçamento, separadores, acentos e caixa mista.
 
@@ -7,7 +7,7 @@ Inclui decorator `@NoProfanity()` para integração direta com [class-validator]
 ## Instalação
 
 ```bash
-npm install biblioteca-palavroes
+npm i block-swearword
 ```
 
 ## Uso Básico
