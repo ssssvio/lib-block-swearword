@@ -1,0 +1,40 @@
+{
+  "name": "block-swearword",
+  "version": "1.0.0",
+  "description": "Filtro de palavrões PT-BR com normalização avançada para class-validator",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ssssvio/lib-block-swearword.git"
+  },
+  "homepage": "https://github.com/ssssvio/lib-block-swearword.git#readme",
+  "bugs": {
+    "url": "https://github.com/ssssvio/lib-block-swearword/issues"
+  },
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "test": "node --import tsx src/__tests__/profanity-filter.test.ts"
+  },
+  "peerDependencies": {
+    "class-validator": ">=0.14.0"
+  },
+  "devDependencies": {
+    "class-validator": "^0.14.3",
+    "typescript": "^5.7.0",
+    "tsx": "^4.0.0"
+  },
+  "files": [
+    "dist",
+    "word-list.json"
+  ],
+  "keywords": ["profanity", "filter", "pt-br", "palavroes", "class-validator"],
+  "license": "MIT"
+}
