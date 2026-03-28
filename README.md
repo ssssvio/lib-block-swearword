@@ -13,7 +13,7 @@ npm i block-swearword
 ## Uso Básico
 
 ```ts
-import { ProfanityFilter } from 'biblioteca-palavroes';
+import { ProfanityFilter } from 'block-swearword';
 
 const filter = new ProfanityFilter();
 
@@ -47,7 +47,7 @@ Isso impede evasões como:
 ## Decorator para class-validator
 
 ```ts
-import { NoProfanity } from 'biblioteca-palavroes';
+import { NoProfanity } from 'block-swearword';
 
 class CreateUserDto {
   @NoProfanity({ message: 'O nome contém linguagem inadequada.' })
